@@ -6,13 +6,17 @@ import Uci = require('../db.json' );
 export class uci{
 
     //received the express instance from app.ts file
-    public routes(app); void{
-        app.route('/Uci')
-        .get((req: Request, res: Response)=> {
-            res.status(200).send(Uci);
-        })
+    public routes(app): void { //received the express instance from app.ts file         
+        app.route('/translator')
+        .get((req: Request, res: Response) => {            
+            res.status(200).send(uci);
+        })               
+    }
 
     
+
+        
 }
+    
 
 
