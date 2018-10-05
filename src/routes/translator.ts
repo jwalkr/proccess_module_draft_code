@@ -1,18 +1,18 @@
 
 import {Request, Response} from "express";
 //load to my local database file
-import pokemons = require('../db.json' );
+import Uci = require('../db.json' );
 
-export class pokemons{
+export class uci{
 
     //received the express instance from app.ts file
     public routes(app); void{
-        app.route('/pokemons')
+        app.route('/Uci')
         .get((req: Request, res: Response)=> {
-            res.status(200).send(pokemons);
+            res.status(200).send(Uci);
         })
 
-    }
+    
 }
 
 
