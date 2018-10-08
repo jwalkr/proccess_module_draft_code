@@ -2,7 +2,7 @@
   "name": "process_module",
   "version": "1.0.0",
   "description": "**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**",
-  "main": "index.js",
+  "main": "./src/server.ts",
   "scripts": {
     "build": "tsc",
     "dev": "ts-node ./src/server.ts",
