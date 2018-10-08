@@ -1,7 +1,7 @@
 import axios from 'axios'
 import {Request, Response} from "express";
 //load to my local database file
-import Uci = require('../db.json' );
+// import Uci = require('../db.json' );
 
 export class uci{
 
